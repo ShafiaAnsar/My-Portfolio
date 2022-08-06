@@ -2,9 +2,9 @@ import React from 'react'
 import './Contact.css'
 function Contact() {
   return (
-    <div>
-      
-    </div>
+    <section id='contact'>
+      Contact
+    </section>
   )
 }
 

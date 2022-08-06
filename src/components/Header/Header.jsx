@@ -6,12 +6,12 @@ import ME from '../../assets/me.png'
 function Header() {
   return (
    <header>
-    <div className="container header_container "  />
-    <h5 className='5'>Hello I'm</h5>
+    <div className=" container header_container ">
+    <h4 className='5'>Hello I'm</h4>
     <h1 className='S'>Shafia Ansar</h1>
-    <h5 className='text-white'>
+    <h4 className='text-white'>
       Front-end Developer
-    </h5>
+    </h4>
     <CTA/>
     <HeaderSocial/>
 
@@ -19,6 +19,7 @@ function Header() {
       <img src={ME}alt='me'/>
     </div>
     <a href='#contact' className='scroll_down'> Scroll Down </a>
+    </div>
    </header>
 
 

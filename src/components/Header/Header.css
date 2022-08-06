@@ -1,18 +1,15 @@
 header{
-    /* height: 100vh; */
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
  }
-.header_container{
-
+ .container
+ {
     text-align: center;
     height: 100%;
     position: relative;
 }
-h1{
-    /* margin-left: 20rem; */
-    left: 50%;
-}
+
 .cta{
     margin-top: 2.5rem;
     display: flex;
@@ -26,7 +23,7 @@ h1{
     align-items: center;
     gap:0.8rem;
     position: absolute;
-    left: 0;
+    left: 10;
     bottom: 3rem;
 
 }
@@ -54,4 +51,17 @@ h1{
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;
+}
+@media screen and (max-width:1024px) {
+    header{
+        height: 68vh;
+     }
+}
+@media screen and (max-width:600px) {
+    header{
+        height: 100vh;
+     }
+     .header_socials,.scroll_down{
+        display: none;
+     }
 }
