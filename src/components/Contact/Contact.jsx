@@ -1,9 +1,11 @@
 import React from 'react'
-import './Contexts.css'
-const Context = () => {
+import './Contact.css'
+function Contact() {
   return (
-    <div>Context</div>
+    <div>
+      
+    </div>
   )
 }
 
-export default Context
+export default Contact
