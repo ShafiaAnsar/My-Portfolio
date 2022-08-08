@@ -38,7 +38,7 @@ const data =[{
   image :IMG5,
   title:'Portfolio',
   github:'https://https://github.com/ShafiaAnsar/My-Portfolio',
-  demo:'https://linkedin-clone-7befc.web.app/'
+  demo:'https://my-portfolio-36ba3.web.app/'
 },{
   id :6,
   image :IMG6,
