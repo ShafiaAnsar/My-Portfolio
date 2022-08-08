@@ -5,7 +5,7 @@ import AVTR2 from '../../assets/avatar2.png'
 import AVTR3 from '../../assets/avatar3.png'
 import AVTR4 from '../../assets/avatar4.png'
 // import Swiper core and required modules
-import { Pagination } from 'swiper';
+import { Pagination,Navigation } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -35,7 +35,9 @@ function Testimonials() {
     <section id='testimonials'>
       <h5>Reviews from clients</h5>
       <h2>Testimonials</h2>
-      <Swiper className="container testimonials_container" modules={ Pagination}>
+      <Swiper className="container testimonials_container" modules={ [Pagination,Navigation]} spaceBetween={40} slidesPerView={1} navigation       pagination={{ clickable: true }}
+
+       >
         {data.map(({avatar,review,name})=>{
           return(
 <SwiperSlide   className='testimonial'>
