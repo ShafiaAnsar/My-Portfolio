@@ -46,11 +46,12 @@
     .services_container{
         grid-template-columns:1fr  1fr;
         gap: 2rem;
+        margin-top: 20%;
       
     }
-    .service{
-        height: auto;
-    }
+    /* .service{
+        height: 100%;
+    } */
     
 }
 @media screen and (max-width:600px) {

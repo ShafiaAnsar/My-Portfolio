@@ -17,6 +17,7 @@
 .portfolio_item-image{
     border-radius: 1.5rem;
     overflow: hidden;
+   
 }
 .portfolio_item >h3{
     margin: 1.2rem 0 2rem;

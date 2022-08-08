@@ -4,7 +4,7 @@ import IMG1 from '../../assets/portfolio1.png'
 import IMG2 from '../../assets/portfolio222.png'
 import IMG3 from '../../assets/portfolio3.png'
 import IMG4 from '../../assets/portfolio4.png'
-import IMG5 from '../../assets/portfolio3.png'
+import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio3.png'
 
 const data =[{
@@ -36,8 +36,8 @@ const data =[{
 {
   id :5,
   image :IMG5,
-  title:'Dashboard App',
-  github:'https://github.com/ShafiaAnsar/Dashboardapp',
+  title:'Portfolio',
+  github:'https://https://github.com/ShafiaAnsar/My-Portfolio',
   demo:'https://linkedin-clone-7befc.web.app/'
 },{
   id :6,

@@ -67,6 +67,9 @@
     .about_content p{
         margin: 1rem 0 1.5rem;
     }
+    .about_me-image{
+        height: 450px;
+    }
 }
 @media screen and (max-width:600px) {
     .about_me{
@@ -82,5 +85,8 @@
     }
     .about_content p{
         margin: 1rem;
+    }
+    .about_me-image{
+        height: 250px;
     }
 }

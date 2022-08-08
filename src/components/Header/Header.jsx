@@ -5,7 +5,7 @@ import { HeaderSocial } from './HeaderSocial'
 import ME from '../../assets/me.png'
 function Header() {
   return (
-   <header>
+   <header id='header'>
     <div className=" container header_container ">
     <h4 className='5'>Hello I'm</h4>
     <h1 className='S'>Shafia Ansar</h1>
