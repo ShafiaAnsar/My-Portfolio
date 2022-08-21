@@ -1,8 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio222.png'
-import IMG3 from '../../assets/portfolio3.png'
+import IMG2 from '../../assets/portfolio2.png'
+import IMG3 from '../../assets/portfolio3.jpeg'
 import IMG4 from '../../assets/portfolio4.jpeg'
 import IMG5 from '../../assets/portfolio5.jpeg'
 import IMG6 from '../../assets/portfolio6.jpeg'
@@ -23,9 +23,9 @@ const data =[{
 },{
   id :3,
   image :IMG3,
-  title:'Snapchat Clone',
-  github:'https://github.com/ShafiaAnsar/Snapchat-clone',
-  demo:'https://snapchat-clone-86d6e.web.app/'
+  title:'Amazon Clone',
+  github:'https://github.com/ShafiaAnsar/Amazon-clone',
+  demo:'https://clone-80044.web.app/'
 },{
   id :4,
   image :IMG4,
