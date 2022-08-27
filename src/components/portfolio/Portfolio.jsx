@@ -6,7 +6,8 @@ import IMG3 from '../../assets/portfolio3.jpeg'
 import IMG4 from '../../assets/portfolio4.jpeg'
 import IMG5 from '../../assets/portfolio5.jpeg'
 import IMG6 from '../../assets/portfolio6.jpeg'
-
+import IMG7 from '../../assets/portfolio7.jpeg'
+import IMG8 from '../../assets/portfolio8.jpeg'
 const data =[{
   id :1,
   image :IMG1,
@@ -45,7 +46,21 @@ const data =[{
   title:'Render App',
   github:'https://github.com/ShafiaAnsar/Render-app',
   demo:'https://render-app-46fd4.web.app/'
-},]
+},
+{
+  id :7,
+  image :IMG7,
+  title:'Ecommerce website',
+  github:'https://github.com/ShafiaAnsar/Ecommerce-website',
+  demo:'https://ecommerce-website-ac5e1.web.app//'
+},
+{
+  id :8,
+  image :IMG8,
+  title:'Snapchat Clone ',
+  github:'https://github.com/ShafiaAnsar/Snapchat-clone',
+  demo:'https://snapchat-clone-86d6e.web.app//'
+}]
 function Portfolio() {
   return (
     <section id='portfolio'>
