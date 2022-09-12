@@ -8,6 +8,7 @@ import IMG5 from '../../assets/portfolio5.jpeg'
 import IMG6 from '../../assets/portfolio6.jpeg'
 import IMG7 from '../../assets/portfolio7.jpeg'
 import IMG8 from '../../assets/portfolio8.jpeg'
+import IMG9 from '../../assets/portfolio9.jpeg' 
 const data =[{
   id :1,
   image :IMG1,
@@ -60,7 +61,14 @@ const data =[{
   title:'Snapchat Clone ',
   github:'https://github.com/ShafiaAnsar/Snapchat-clone',
   demo:'https://snapchat-clone-86d6e.web.app//'
-}]
+},
+{
+  id :9,
+  image :IMG9,
+  title:'Messenger',
+  github:' https://github.com/ShafiaAnsar/Messenger',
+  demo:'https://messenger-b064a.web.app/'
+},]
 function Portfolio() {
   return (
     <section id='portfolio'>
