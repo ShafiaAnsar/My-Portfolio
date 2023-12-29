@@ -24,17 +24,22 @@ const About = () => {
             <small>3+ Years Working</small>
             </article>
             <article className='about_card'>
-              <FiUsers className='about_icon'/>
-            <h5>Clients </h5>
-            <small>300+ Worldwide </small>
-            </article> <article className='about_card'>
               <VscFolderLibrary className='about_icon'/>
             <h5>Projects </h5>
-            <small>80 + Completed Projects</small>
+            <small>30 + Completed Projects</small>
             </article>
           </div>
           
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum nobis perferendis inventore voluptatibus architecto impedit, deserunt eos excepturi dolorem nostrum dicta officiis. Unde placeat, quibusdam est a dolore magni hic!</p>
+          <p>
+            I am a skilled professional with expertise in various areas. My experience spans over 3 years, during which I have successfully completed 30+ projects. My key skills include but are not limited to:
+
+            - Frontend Development
+            - Backend Development
+            - UI/UX Design
+            - Project Management
+            - Problem Solving
+            - Team Collaboration
+          </p>
           <a  href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
