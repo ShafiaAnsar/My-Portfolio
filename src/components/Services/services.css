@@ -58,3 +58,9 @@
     gap: 1.5rem;
   }
 }
+@media screen and (max-width: 600px) {
+  .services_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
