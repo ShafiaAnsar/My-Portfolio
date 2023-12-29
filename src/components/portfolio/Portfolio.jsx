@@ -1,89 +1,94 @@
 import React from 'react'
 import './Portfolio.css'
 import IMG1 from '../../assets/portfolio1.png'
-import IMG2 from '../../assets/portfolio2.png'
+import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpeg'
 import IMG4 from '../../assets/portfolio4.jpeg'
 import IMG5 from '../../assets/portfolio5.jpeg'
-import IMG6 from '../../assets/portfolio6.jpeg'
 import IMG7 from '../../assets/portfolio7.jpeg'
-import IMG8 from '../../assets/portfolio8.jpeg'
-import IMG9 from '../../assets/portfolio9.jpeg' 
-import IMG10 from '../../assets/profile10.jpeg'
+import IMG9 from '../../assets/portfolio9.jpeg'
+import IMG10 from '../../assets/portfolio10.jpg'
+import IMG11 from '../../assets/portfolio11.jpg'
+import IMG12 from '../../assets/portfolio12.jpg'
+import IMG22 from '../../assets/portfolio22.jpg'
+
 const data =[
   {
   id :1,
   image :IMG10,
-  title:'Messenger-React',
+  title:' Messenger-NextJs Clone',
   github:'https://github.com/ShafiaAnsar/Messenger-nextjs',
   demo:'https://messenger-clone-ochre.vercel.app/'
 },
-  {
+{
   id :2,
+  image :IMG11,
+  title:' Spotify Clone',
+  github:'https://github.com/ShafiaAnsar/Spotify',
+  demo:'https://music-app-rouge-rho.vercel.app'
+},
+{
+  id :3,
   image :IMG9,
   title:'Messenger-React',
   github:' https://github.com/ShafiaAnsar/Messenger',
   demo:'https://messenger-b064a.web.app/'
 },
-  {
-  id :3,
+{
+  id :4,
+  image :IMG12,
+  title:'Netflix Clone',
+  github:' https://github.com/ShafiaAnsar/Netflix',
+  demo:'https://movie-streaming-app-nine.vercel.app/'
+},
+{
+  id :5,
   image :IMG1,
   title:' Linkedin Clone',
   github:'https://github.com/ShafiaAnsar/Linkedin-clone',
   demo:'https://linkedin-clone-7befc.web.app/'
 },
 {
-  id :4,
-  image :IMG2,
+  id :6,
+  image :IMG22,
   title:' Dashboard App',
   github:' https://github.com/ShafiaAnsar/Dashboardapp',
   demo:'https://dashboard-app-8bd18.web.app/'
-},{
-  id :5,
+
+},
+{
+  id :7,
+  image :IMG2,
+  title:'Airbnb',
+  github:' https://github.com/ShafiaAnsar/Airbnb',
+  demo:'https://rent-website-o95srni6x-shafiaansar.vercel.app/'
+},
+{
+  id :8,
   image :IMG3,
   title:'Amazon Clone',
   github:'https://github.com/ShafiaAnsar/Amazon-clone',
   demo:'https://clone-80044.web.app/'
 },{
-  id :6,
+  id :9,
   image :IMG4,
   title:'GPT-3 App',
   github:'https://github.com/ShafiaAnsar/Dashboardapp',
   demo:'https://gpt-app-b0298.web.app/'
 },
 {
-  id :7,
+  id :10,
   image :IMG5,
   title:'Portfolio',
   github:'https://https://github.com/ShafiaAnsar/My-Portfolio',
   demo:'https://my-portfolio-36ba3.web.app/'
-},{
-  id :8,
-  image :IMG6,
-  title:'Render App',
-  github:'https://github.com/ShafiaAnsar/Render-app',
-  demo:'https://render-app-46fd4.web.app/'
 },
 {
-  id :9,
+  id :12,
   image :IMG7,
   title:'Ecommerce website',
   github:'https://github.com/ShafiaAnsar/Ecommerce-website',
   demo:'https://ecommerce-website-ac5e1.web.app//'
-},
-{
-  id :10,
-  image :IMG8,
-  title:'Snapchat Clone ',
-  github:'https://github.com/ShafiaAnsar/Snapchat-clone',
-  demo:'https://snapchat-clone-86d6e.web.app//'
-},
-{
-  id :11,
-  image :IMG9,
-  title:'Messenger',
-  github:' https://github.com/ShafiaAnsar/Messenger',
-  demo:'https://messenger-b064a.web.app/'
 },]
 function Portfolio() {
   return (
