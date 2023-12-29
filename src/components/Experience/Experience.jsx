@@ -56,7 +56,7 @@ function Experience() {
           </article>
           <article className='experience_detail'>
             <BsPatchCheckFill    className='experience_detail-icon'/>
-            <div><h4>VueJs</h4>
+            <div><h4>NextJs</h4>
             <small className='text-light'>Intermediate</small>
             </div>
           </article>
